@@ -1,6 +1,4 @@
-# Fizzbuzz
-
-HOW TO RUN THIS
+# HOW TO RUN THIS
 
 use `iex -S mix` in the root of this project
 
@@ -8,12 +6,11 @@ Then, execute the following command:
 
 ```elixir
 iex> Fizzbuzz.fizzbuzz_check(6) 
-fizz
-:ok
+ fizz
+ :ok
 ```
 Feel free to choose any number you prefer. 
 
-**TODO: Add description**
 
 ## Installation
 
