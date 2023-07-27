@@ -1,31 +1,23 @@
+# FizzBuzz
+このリポジトリは書籍『プログラミングElixir第二版』の5章の練習問題 Functions-2の回答用です。
+
 # HOW TO RUN THIS
 
 use `iex -S mix` in the root of this project
 
 Then, execute the following command:
 
+Example
 ```elixir
-iex> Fizzbuzz.fizzbuzz_check(6) 
- fizz
- :ok
+iex()> Fizzbuzz.fizzbuzz(0,1,2)
+fizz
+:ok
+iex()> Fizzbuzz.fizzbuzz(1,0,2)
+buzz
+:ok
+iex()> Fizzbuzz.fizzbuzz(1,2,3)
+fizzbuzz
+:ok
 ```
 Feel free to choose any number you prefer. 
-
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `fizzbuzz` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:fizzbuzz, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/fizzbuzz>.
 

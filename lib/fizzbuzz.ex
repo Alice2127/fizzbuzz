@@ -1,18 +1,6 @@
 defmodule Fizzbuzz do
 
-  def fizzbuzz_check(number) do
-    case {rem(number, 3), rem(number, 5)} do
-      {0, 0} ->
-        IO.puts("fizzbuzz")
-
-      {0, _} ->
-        IO.puts("fizz")
-
-      {_, 0} ->
-        IO.puts("buzz")
-
-      _ ->
-        IO.puts(number)
-    end
-  end
+  def fizzbuzz(0, _, _), do: IO.puts("fizz")
+  def fizzbuzz(_, 0, _), do: IO.puts("buzz")
+  def fizzbuzz(_, _, _), do: IO.puts("fizzbuzz")
 end
