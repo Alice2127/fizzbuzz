@@ -20,4 +20,3 @@ fizzbuzz
 :ok
 ```
 Feel free to choose any number you prefer. 
-
